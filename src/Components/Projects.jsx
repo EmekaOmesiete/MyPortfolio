@@ -6,14 +6,22 @@ export default function Projects() {
     {
       title: "DawnEats (Ongoing)",
       desc: "DawnEats is an ongoing breakfast food ordering and delivery platform focused on providing fast, reliable, and user-friendly digital ordering",
+      link: "https://dawn-eats-break-fast-website.vercel.app/",
     },
     {
       title: "TraceAid Project",
       desc: "TraceAid is a transparency-driven fundraising platform designed to eliminate the trust gap between donors and fundraisers.It ensures accountability, authenticity, and verifiable impact by requiring fundraisers to upload valid evidence, documents, and supporting information before a campaign can go live. Through real-time updates, milestone evidence, verified identities, and secure donation flow, TraceAid empowers donors to give with confidence — knowing every campaign is genuine, trackable, and accountable.",
+      link: "https://trace-aid.vercel.app/",
     },
     {
       title: "Weather App",
       desc: "Weather App is a system that allows users to get the latest weather forecasts and conditions for cities across the world.",
+      link: "https://weatherapp-ruddy-xi.vercel.app/",
+    },
+    {
+      title: "Quiz Master",
+      desc: "Quiz Master is a simple, interactive web-based quiz application built with HTML, CSS, and JavaScript. It allows users to test their knowledge on tech basics through a clean interface, starting from a welcoming homepage and proceeding to the quiz section with a single click.",
+      link: "https://quiz-app-self-nu-30.vercel.app/",
     },
   ];
 
@@ -25,6 +33,9 @@ export default function Projects() {
           <Card key={i}>
             <ProjectTitle>{p.title}</ProjectTitle>
             <ProjectDesc>{p.desc}</ProjectDesc>
+            <ViewLink href={p.link} target="_blank" rel="noopener noreferrer">
+              View Project
+            </ViewLink>
           </Card>
         ))}
       </Cards>
@@ -162,4 +173,24 @@ const ProjectDesc = styled.p`
   @media (max-width: 430px) {
     font-size: 0.8rem;
   }
+`;
+
+const ViewLink = styled.a`
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 6px 12px;
+  background-color: #0070f3;
+  color: white;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #005bb5;
+  }
+
+  @media (max-width: 480px) { font-size: 0.8rem; }
+  @media (max-width: 430px) { font-size: 0.75rem; }
 `;
