@@ -26,7 +26,7 @@ export default function Projects() {
     {
       title: "Quechilly Essentials",
       desc: "your one-stop destination for radiant, nourished lips. Our Lip Care Kit is thoughtfully crafted to bring out your natural beauty while keeping your lips soft, hydrated, and irresistibly smooth.",
-      link: "https://quechilly-essentials.vercel.app/",
+      link: "https://quechiily-essentials.vercel.app/",
     }
   ];
 
