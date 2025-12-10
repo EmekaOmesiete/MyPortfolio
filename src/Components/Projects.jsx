@@ -23,6 +23,11 @@ export default function Projects() {
       desc: "Quiz Master is a simple, interactive web-based quiz application built with HTML, CSS, and JavaScript. It allows users to test their knowledge on tech basics through a clean interface, starting from a welcoming homepage and proceeding to the quiz section with a single click.",
       link: "https://quiz-app-self-nu-30.vercel.app/",
     },
+    {
+      title: "Quechilly Essentials",
+      desc: "your one-stop destination for radiant, nourished lips. Our Lip Care Kit is thoughtfully crafted to bring out your natural beauty while keeping your lips soft, hydrated, and irresistibly smooth.",
+      link: "https://quechilly-essentials.vercel.app/",
+    }
   ];
 
   return (

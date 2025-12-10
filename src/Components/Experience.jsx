@@ -20,6 +20,18 @@ export default function Experience() {
       details:
         "Worked on real-time API integration to fetch current weather conditions and forecasts for cities across the world.",
     },
+    {
+      role: "Quiz Master",
+      period: "one Month",
+      details:
+        "Developed a web-based quiz application with a clean interface, allowing users to test their knowledge on tech basics.",
+    },
+    {
+      role: "Quechilly Essentials",
+      period: "Ongoing",
+      details:
+        "Developed a promotional website for a lip care product, focusing on user engagement and product information.",
+    }
   ];
 
   return (
